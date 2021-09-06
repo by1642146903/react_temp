@@ -4,7 +4,8 @@ import moment from 'moment';
 
 export default function Index() {
   const [timer, setTimer] = useState(0);
-  const [list, setList] = useState([1, 2, 3, 4, 5, 6, 7]);
+  const [list] = useState([1, 2, 3, 4, 5, 6, 7]);
+  // const list = [1, 2, 3, 4, 5, 6, 7];
 
   useEffect(() => {
     const interval = setInterval(() => {
