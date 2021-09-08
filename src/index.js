@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import UseMemoDemo from './pages/UseMemoDemo';
+import UseCallbackDemo from './pages/UseCallbackDemo';
+import ClassDemo from './pages/ClassDemo';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseMemoDemo />
+    <UseCallbackDemo />
   </React.StrictMode>,
   document.getElementById('root')
 );
